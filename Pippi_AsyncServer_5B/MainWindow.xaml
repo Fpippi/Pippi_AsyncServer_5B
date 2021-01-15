@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="301.2" Width="496.4">
     <Grid>
-        <Button x:Name="Btn_Ascolto" Content="Metti in Ascolto" HorizontalAlignment="Left" Margin="140,65,0,0" VerticalAlignment="Top" Width="191" Height="103" Click="Btn_Ascolto_Click" FontSize="18"/>
+        <Button x:Name="Btn_Ascolto" Content="Metti in Ascolto" HorizontalAlignment="Left" Margin="72,29,0,0" VerticalAlignment="Top" Width="191" Height="103" Click="Btn_Ascolto_Click" FontSize="18"/>
+        <Button x:Name="btn_Disconetti" Content="Disconetti" HorizontalAlignment="Left" Margin="47,195,0,0" VerticalAlignment="Top" Width="75" Click="btn_Disconetti_Click"/>
+        <Button x:Name="Btn_invia" Content="Invia" HorizontalAlignment="Left" Margin="263,203,0,0" VerticalAlignment="Top" Width="75" Click="Btn_invia_Click"/>
+        <TextBox x:Name="Txt_messagio" HorizontalAlignment="Left" Height="23" Margin="308,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>

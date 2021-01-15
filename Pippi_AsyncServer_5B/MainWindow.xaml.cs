@@ -29,7 +29,17 @@ namespace Pippi_AsyncServer_5B
 
         private void Btn_Ascolto_Click(object sender, RoutedEventArgs e)
         {
-            mServer.InAscolto();
+            mServer.InizioAscolto();
+        }
+
+        private void btn_Disconetti_Click(object sender, RoutedEventArgs e)
+        {
+            mServer.disconetti();
+        }
+
+        private void Btn_invia_Click(object sender, RoutedEventArgs e)
+        {
+            mServer.inviaATutti(Txt_messagio.Text);
         }
     }
 }
